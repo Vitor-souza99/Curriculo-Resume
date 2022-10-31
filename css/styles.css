@@ -11437,3 +11437,17 @@ section.resume-section .resume-section-content {
 .age{
   font-size: 40px;
 }
+
+#checkbox{
+  width: 50px;
+  height: 20px;
+}
+
+.darkmode{
+  background-color:#0dcaf0;
+  color: white;
+}
+
+.darkmode .card{
+  background-color: #3d3d3d;
+}

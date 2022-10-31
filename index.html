@@ -41,135 +41,152 @@
     </nav>
     <!-- Page Content-->
     <div class="container-fluid p-0">
-        <!-- About-->
-        <section class="resume-section" id="about">
-            <div class="resume-section-content">
-                <h1 class="mb-0">
-                    Vitor
-                    <span class="text-primary">Lisboa Souza</span>
-                    <p class="age">23 anos</p>
-                </h1>
-                <div class="subheading mb-5">
-                    Rua Argeu Egídio dos Santos, 332 · Planalto do Sol 2, Santa Bárbara d'Oeste · São Paulo <br> (19)
-                    98721-7844·
-                    <br><a href="#">vitor.l.s1799@gmail.com</a>
-                </div>
-                <p class="lead mb-5">Em busca de estágio em TI.</p>
-                <div class="social-icons">
-                    <a class="social-icon" href="https://www.linkedin.com/in/vitor-lisboa/"><i
-                            class="fab fa-linkedin-in"></i></a>
-                    <a class="social-icon" href="https://github.com/Vitor-souza99"><i class="fab fa-github"></i></a>
-                    <a class="social-icon" href="https://www.instagram.com/vt_souza23/"><i
-                            class="fa-brands fa-instagram"></i></a>
-                    <a class="social-icon" href="https://www.facebook.com/VitorLSouza99"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="social-icon" href="https://api.whatsapp.com/send?phone=5519987217844&text=Ol%C3%A1%20Vitor%2C%20tudo%20bem%3F%20Est%C3%A1%20em%20busca%20de%20oportunidade%20profissional%3F"><i class="fa-brands fa-whatsapp"></i></a>
-                </div>
+
+        <!-- Botão Dark Mode -->
+        <div class="card" style="width: 100%;">
+            <div class="form-check form-switch">
+                <!-- form  -->
+                <input type="checkbox" class="form-check-input" id="checkbox"
+                    style="margin-left: 80%; margin-top: 40px;" onclick="setDarkMode()">
+                <label class="form-check-label" for="checkbox" style="margin-left: 80%;">Modo Escuro</label>
+
             </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Educação-->
-        <section class="resume-section" id="education">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Educação</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">FATEC - Faculdade de Tecnologia de Americana</h3>
-                        <div class="subheading mb-3">Tecnólogo</div>
-                        <div>Análise e Desenvolvimento de Sistemas. <br>Cursando 5° semestre, noturno.</div>
+
+
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+
+                    <h1 class="mb-0">
+                        Vitor
+                        <span class="text-primary">Lisboa Souza</span>
+                        <p class="age">23 anos</p>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Rua Argeu Egídio dos Santos, 332 · Planalto do Sol 2, Santa Bárbara d'Oeste · São Paulo <br>
+                        (19)
+                        98721-7844·
+                        <br><a href="#">vitor.l.s1799@gmail.com</a>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Agosto 2020 - Presente</span></div>
-                </div>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Experiência-->
-
-        <section class="resume-section" id="experience">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Experiências Anteriores</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0">Auxiliar de Mecânico Diesel.</h3>
-                        <div class="subheading mb-3">Viação Clewis</div>
-                        <p>Ajudar na manutenção de veículos pesados, lavagem de peças
-                            automotivas e preencher fichas e relatórios.</p>
+                    <p class="lead mb-5">Em busca de estágio em TI.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/vitor-lisboa/"><i
+                                class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/Vitor-souza99"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" href="https://www.instagram.com/vt_souza23/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a class="social-icon" href="https://www.facebook.com/VitorLSouza99"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon"
+                            href="https://api.whatsapp.com/send?phone=5519987217844&text=Ol%C3%A1%20Vitor%2C%20tudo%20bem%3F%20Est%C3%A1%20em%20busca%20de%20oportunidade%20profissional%3F"><i
+                                class="fa-brands fa-whatsapp"></i></a>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Julho 2019 a Setembro 2020</span></div>
                 </div>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="flex-grow-1">
-                        <h3 class="mb-0"> Auxiliar de Serviços Gerais</h3>
-                        <div class="subheading mb-3">Auto Peças Daniel</div>
-                        <p> Atendimento ao cliente, vendas de peças automotivas, organização e
-                            controle de estoque e manutenção em veículos.</p>
+            </section>
+            <hr class="m-0" />
+            <!-- Educação-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Educação</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">FATEC - Faculdade de Tecnologia de Americana</h3>
+                            <div class="subheading mb-3">Tecnólogo</div>
+                            <div>Análise e Desenvolvimento de Sistemas. <br>Cursando 5° semestre, noturno.</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Agosto 2020 - Presente</span></div>
                     </div>
-                    <div class="flex-shrink-0"><span class="text-primary">Janeiro 2018 a Março 2018</span></div>
                 </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experiência-->
 
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Skills-->
-        <section class="resume-section" id="skills">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Habilidades</h2>
-                <div class="subheading mb-3">Linguagem de programação & Ferramentas</div>
-                <ul class="list-inline dev-icons">
-                    <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                    <li class="list-inline-item"><i class="fa-brands fa-js"></i></li>
-                    <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
-                    <li class="list-inline-item"><i class="fa-brands fa-github"></i></i></li>
-                    <li class="list-inline-item"><i class="fa-solid fa-database"></i></li>
-                    <li class="list-inline-item"><i class="fa-brands fa-figma"></i></li>
-                    <li class="list-inline-item"><i class="fa-brands fa-windows"></i></li>
-                    <li class="list-inline-item"><i class="fa-brands fa-trello"></i></li>
-                </ul>
-                <div class="subheading mb-3">Atividades complementares</div>
-                <ul class="fa-ul mb-0">
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Banco de dados MySQL – 40 horas – Curso em Vídeo <br> 07.2022.
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Inglês intermediário II – CNA <br> 02.2021 a 06.2022
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Introdução ao Git e ao GitHub – 5 horas - Digital Inovation One <br> 04.2021
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Excel básico – 20 horas – Senai (online). <br> 15.12.2020 a 28.12.2020
-                    </li>
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Mecânica Automotiva – 360 horas – Escola Automotiva, SP/AM. <br> 15.03.2017 a 21.04,2019
-                    </li>
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experiências Anteriores</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Auxiliar de Mecânico Diesel.</h3>
+                            <div class="subheading mb-3">Viação Clewis</div>
+                            <p>Ajudar na manutenção de veículos pesados, lavagem de peças
+                                automotivas e preencher fichas e relatórios.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Julho 2019 a Setembro 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0"> Auxiliar de Serviços Gerais</h3>
+                            <div class="subheading mb-3">Auto Peças Daniel</div>
+                            <p> Atendimento ao cliente, vendas de peças automotivas, organização e
+                                controle de estoque e manutenção em veículos.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Janeiro 2018 a Março 2018</span></div>
+                    </div>
 
-                    <li>
-                        <span class="fa-li"><i class="fas fa-check"></i></span>
-                        Auxiliar mecânico de manutenção –160 horas – Senai, SP/AM. <br> 17.04.2018 a 26.07.2018
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Interests-->
-        <section class="resume-section" id="interests">
-            <div class="resume-section-content">
-                <h2 class="mb-5">Interesses</h2>
-                <p>Conhecimento em ferramentas: HTML, CSS, Bootstrap, Pacote Office, linguagem de programação JavaScript, ferramentas gráficas Figma e Photoshop e banco de dados com MySQL. 
-                </p>
-                <p class="mb-0">Desejo aprender, praticar, trazer resultados que possam agregar no meu resumo
-                    profissional e pessoal. Fico a diposição por uma oportunidade, desde já, muito grato.</p>
-            </div>
-        </section>
-        <hr class="m-0" />
-        <!-- Awards-->
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Habilidades</h2>
+                    <div class="subheading mb-3">Linguagem de programação & Ferramentas</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-github"></i></i></li>
+                        <li class="list-inline-item"><i class="fa-solid fa-database"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-figma"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-windows"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-trello"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Atividades complementares</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Banco de dados MySQL – 40 horas – Curso em Vídeo <br> 07.2022.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Inglês intermediário II – CNA <br> 02.2021 a 06.2022
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Introdução ao Git e ao GitHub – 5 horas - Digital Inovation One <br> 04.2021
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Excel básico – 20 horas – Senai (online). <br> 15.12.2020 a 28.12.2020
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Mecânica Automotiva – 360 horas – Escola Automotiva, SP/AM. <br> 15.03.2017 a 21.04,2019
+                        </li>
 
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Auxiliar mecânico de manutenção –160 horas – Senai, SP/AM. <br> 17.04.2018 a 26.07.2018
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interesses</h2>
+                    <p>Conhecimento em ferramentas: HTML, CSS, Bootstrap, Pacote Office, linguagem de programação
+                        JavaScript, ferramentas gráficas Figma e Photoshop e banco de dados com MySQL.
+                    </p>
+                    <p class="mb-0">Desejo aprender, praticar, trazer resultados que possam agregar no meu resumo
+                        profissional e pessoal. Fico a diposição por uma oportunidade, desde já, muito grato.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Awards-->
+        </div>
     </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
