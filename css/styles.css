@@ -11451,3 +11451,13 @@ section.resume-section .resume-section-content {
 .darkmode .card{
   background-color: #000000;
 }
+
+.img-hide{
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .img-hide {
+    display: block;
+  }
+}
