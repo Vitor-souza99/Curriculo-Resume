@@ -43,19 +43,20 @@ if(localStorage.getItem('theme') == 'dark'){
     }
 }
 
-function setDarkMode(){
+function setDarkMode() {
     let isDark = document.body.classList.toggle('darkmode');
-
+  
     if (isDark) {
-        setDarkMode.checked = true;
-        localStorage.setItem('theme','dark');
-        document.getElementById('checkbox').setAttribute('checked', 'checked');
-
-    }else{
-        setDarkMode.checked = true;
-        localStorage.removeItem('theme','dark');
+      localStorage.setItem('theme', 'dark');
+      document.getElementById('checkbox').setAttribute('checked', 'checked');
+      document.getElementById('mode-label').textContent = 'Modo Escuro.';
+    } else {
+      localStorage.removeItem('theme', 'dark');
+      document.getElementById('checkbox').removeAttribute('checked');
+      document.getElementById('mode-label').textContent = 'Modo Claro.';
     }
-}
+  }
+  
 
 //button scroll-top
 const scrollTop = document.querySelector('.scroll-top');
